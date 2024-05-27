@@ -1,0 +1,19 @@
+1. yum install java-1.8*
+2. wget https://maven.apache.org/download.cgi
+tar -xvzf <file.name>
+2. java -version
+3. whereis java
+4. find /usr/lib/jvm/java-1.8* | head -n 3
+5. vi ~/.bash_profile
+6. Update > JAVA_HOME=/usr/lib/jvm
+PATH=$PATH:$HOME/bin:$JAVA_HOME:M2_HOME:M2
+6. echo $PATH
+7. M2_Home=opt/git/apache (extracted file)
+M2=opt/git/apache/bin (add bin file also here)
+
+7. source ~/.bash_profile
+
+Note: update 2 paths 1 for java-1.8* and maven
+
+Lecture: Prerequisite to Setup Maven
+Setup Maven
